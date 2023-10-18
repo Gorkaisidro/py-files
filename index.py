@@ -15,16 +15,18 @@ print(book)
 print("----")
 
 # Word Count
-# print('Word Count: ', files.wordCount(book))
 print("Word Count: ", files.wordCount(book))
+print("----")
 # Unique Word Count
-# print('Unique Word Count: ', files.uniqueWordCount(book))
-
+print('Unique Word Count: ', files.uniqueWordCount(book))
+print("----")
 # Quijote count
-# print('find Content: ', files.findContent(book, 'quijote'))
-# print('find Content: ', files.findContent(book, 'sancho'))
-
+print('find Quijote: ', files.findContent(book, 'Quijote'))
+print("-----")
+# Sancho count
+print('find Sancho: ', files.findContent(book, 'Sancho'))
+print("----")
 # Change Quijote to Quixote and write it to a new file "el_quixote.txt"
-# print('Change Quijote to Quixote: ', files.changeQuijoteToQuixote(book))
+print('Change Quijote to Quixote: ', files.changeQuijoteToQuixote(book))
 
 

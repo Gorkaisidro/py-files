@@ -7,9 +7,16 @@ def wordCount(text):
   return palabras
 
 def uniqueWordCount(text):
-  # return count
-  return 0
+  palabrasUnicas = len(set(text.split()))
+  return palabrasUnicas
 
 def findContent(text, word):
-  # return count
-  return 0
+  quijote = text.count(word)
+  return quijote
+
+import re
+def changeQuijoteToQuixote(text):
+  pattern = r"Quijote"
+  replacement = "Quixote"
+  new_text = re.sub(pattern, replacement, text)
+  return new_text
