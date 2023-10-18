@@ -10,9 +10,10 @@ def uniqueWordCount(text):
   palabrasUnicas = len(set(text.split()))
   return palabrasUnicas
 
+import re
 def findContent(text, word):
-  quijote = text.count(word)
-  return quijote
+  textFind = text.count(word)
+  return textFind
 
 import re
 def changeQuijoteToQuixote(text):
